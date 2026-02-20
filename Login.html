@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - Chi Books</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="books.html">Books</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="login-container">
+            <h2 class="login-title">Create Your Account</h2>
+            <p class="login-subtitle">Join our community of book lovers and start your reading journey</p>
+
+            <form>
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Choose a unique username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Create a strong password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="interests">Favorite Book Genre</label>
+                    <select id="interests" name="interests">
+                        <option value="">Select your favorite genre</option>
+                        <option value="fiction">Fiction</option>
+                        <option value="non-fiction">Non-Fiction</option>
+                        <option value="mystery">Mystery & Thriller</option>
+                        <option value="romance">Romance</option>
+                        <option value="fantasy">Fantasy</option>
+                        <option value="science-fiction">Science Fiction</option>
+                        <option value="poetry">Poetry</option>
+                        <option value="children">Children's Books</option>
+                        <option value="academic">Academic</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms" style="display: inline; margin: 0;">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter" style="display: inline; margin: 0;">Send me book recommendations and updates</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Create Account</button>
+            </form>
+
+            <p class="login-footer">
+                Already have an account? <a href="#">Sign in here</a>
+            </p>
+        </div>
+    </main>
+
+    <footer class="professional-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Chi Books</h3>
+                <p>Your gateway to a world of knowledge, stories, and inspiration. Discover your next favorite book today.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p><strong>Email:</strong> info@markurielatabalan.com</p>
+                <p><strong>Phone:</strong> +63 912 729 9214</p>
+                <p><strong>Location:</strong> Ilaya, Calapan City, Philippines</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/uriel.tabalan/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://github.com/markurielatabalan-ui" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/zupp_shit/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Chi Books. All rights reserved. | Designed & Created by Uriel</p>
+        </div>
+    </footer>
+
+</body>
+</html>
