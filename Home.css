@@ -352,8 +352,8 @@ footer.professional-footer {
 }
 
 .MainHeader {
-    font-size: 56px;
-    font-weight: 900;
+    font-size: 60px;
+    font-weight: 1000;
     margin-bottom: 16px;
     text-align: center;
     color: #ffffff;
@@ -392,7 +392,7 @@ section {
   animation: fadeIn 0.6s ease-in;
 }
 
-section h2 {
+section h2, h1{
   color: var(--brand);
   text-align: center;
   margin-bottom: 30px;
@@ -461,7 +461,7 @@ section > p {
   animation: fadeIn 0.6s ease-in;
 }
 
-#blog h2 {
+#blog h2, h1 {
   color: var(--brand);
   text-align: center;
   margin-bottom: 30px;
@@ -549,7 +549,7 @@ section > p {
   animation: fadeIn 0.6s ease-in;
 }
 
-#about h2 {
+#about h2, h1 {
   color: var(--brand);
   text-align: center;
   margin-bottom: 30px;
@@ -1072,7 +1072,7 @@ section > p {
         padding: 35px 15px;
     }
 
-    section h2 {
+    section h2, h1 {
         font-size: 1.5em;
         margin-bottom: 20px;
     }
@@ -1292,7 +1292,7 @@ section > p {
         max-width: 100%;
     }
 
-    section h2 {
+    section h2, h1 {
         font-size: 2em;
         margin-bottom: 25px;
     }
